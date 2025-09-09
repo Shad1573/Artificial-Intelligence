@@ -27,7 +27,7 @@ for line in lines:
 f.close()
 
 initial = [(0 + heuristics[start_node], start_node, [start_node], 0)]
-
+#find path
 path = None
 distance = None
 while len(initial) > 0:
